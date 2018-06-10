@@ -1,11 +1,16 @@
 import React from 'react'
 import EmbeddedGist from './EmbeddedGist'
-export const pageNine = (
+export const pageTen = (
   <section>
     <h1>Resources</h1>
     <ul>
       <li>
         <a href="https://redux.js.org/">Redux documentation</a>
+      </li>
+      <li>
+        <a href="https://redux.js.org/basics/usage-with-react">
+          React-redux documentation
+        </a>
       </li>
       <li>
         <a href="https://egghead.io/courses/building-react-applications-with-idiomatic-redux">
@@ -22,6 +27,7 @@ export const pageNine = (
           When do I know I'm ready for Redux?
         </a>
       </li>
+      <li>https://github.com/taherbert/redux-demo</li>
     </ul>
   </section>
 )

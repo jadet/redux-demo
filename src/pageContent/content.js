@@ -7,6 +7,7 @@ import { pageSix } from './pageSix'
 import { pageSeven } from './pageSeven'
 import { pageEight } from './pageEight'
 import { pageNine } from './pageNine'
+import { pageTen } from './pageTen'
 export const content = [
   pageOne,
   pageTwo,
@@ -17,4 +18,5 @@ export const content = [
   pageSeven,
   pageEight,
   pageNine,
+  pageTen,
 ]
