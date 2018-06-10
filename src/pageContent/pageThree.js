@@ -4,8 +4,8 @@ export const pageThree = (
   <section>
     <h1>How can Redux help?</h1>
     <p>
-      Redux abstracts some of those moving pieces and separates your application
-      into three pieces:
+      Redux decouples describing "what happened" from "how things changed". It
+      enforces a separation of concerns within your your application:
     </p>
     <ul>
       <li>User Interface</li>

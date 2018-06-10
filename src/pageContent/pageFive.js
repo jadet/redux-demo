@@ -31,6 +31,23 @@ export const pageFive = (
       about state at all.
     </p>
 
+    <h3>It requires a ton of boilerplate to make work!</h3>
+    <p>
+      It's true, Redux requires some additional code - but perhaps not as much
+      as you'd think. There are quite a few shorthand ways of working with Redux
+      (see{' '}
+      <a href="https://redux.js.org/recipes/reducing-boilerplate">
+        Reducing Boilerplate
+      </a>). The extra code also helps enforce clear, maintainable code.
+    </p>
+    <p>
+      Consider the situation where we are using local component state and
+      passing values around. For very small, simple applications that works
+      great. At some point, however, an application becomes large enough that
+      you'd actually end up writing <b>more</b> code to pass around local
+      component props than you would have writing the "boilerplate" for Redux.
+    </p>
+
     <h3>Redux doesn't scale! It hurts my application's performance!</h3>
     <p>
       The{' '}

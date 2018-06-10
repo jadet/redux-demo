@@ -18,5 +18,12 @@ export const pageFour = (
         You Might Not Need Redux
       </a>.
     </p>
+
+    <p>
+      Redux is not the only tool that solves this problem, nor is it
+      particularly innovative conceptually - this pattern has existed for a long
+      time. It's just one of the tools available to you as a developer, and as
+      with all tools, it's important to understand when to use it.
+    </p>
   </section>
 )

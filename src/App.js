@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 
-class App extends Component {
+class App extends PureComponent {
   render() {
     const { pageNumber, content, incrementPage, decrementPage } = this.props
     return (
@@ -35,13 +35,13 @@ function decrementPage() {
 const mapStateToProps = state => {
   return {
     pageNumber: state.pageNumber,
-    content: state.content
+    content: state.content,
   }
 }
 
 const mapDispatchToProps = {
   incrementPage: incrementPage,
-  decrementPage: decrementPage
+  decrementPage: decrementPage,
 }
 
 // We don't need this for simple cases
