@@ -45,6 +45,11 @@ li {
   padding: 8px 0;
 }
 
+blockquote {
+  border-left: 3px solid;
+  padding-left: 16px;
+}
+
 .App {
   display: flex;
   flex-flow: column nowrap;

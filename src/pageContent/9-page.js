@@ -11,8 +11,9 @@ export const pageNine = (
     </ol>
     <p>
       To accomplish this, we will generate a Redux store that contains a{' '}
-      <b>pageNumber</b> and an array containing all of our <b>content</b>. The
-      entirety of our Redux code (25 lines, without comments) looks like this:
+      <code>pageNumber</code> and an array containing all of our{' '}
+      <code>content</code>. The entirety of our Redux code (25 lines, without
+      comments) looks like this:
     </p>
     <EmbeddedGist gist="taherbert/769db16e3d0b73c2343f6bb690affaa7" />
     <p>
@@ -30,8 +31,8 @@ export const pageNine = (
         our reducer function.
       </li>
       <li>
-        If that action (which is just a plain object!) has a type of
-        <em>INCREMENT_PAGE</em>, for example, our reducer will use the logic
+        If that action (which is just a plain object!) has a type of{' '}
+        <code>INCREMENT_PAGE</code>, for example, our reducer will use the logic
         inside of the corresponding case statement to update our application's
         state.
       </li>
