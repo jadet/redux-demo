@@ -1,15 +1,15 @@
 import React from 'react'
 import EmbeddedGist from './EmbeddedGist'
-export const pageEight = (
+export const pageNine = (
   <section>
     <h1>Basic React/Redux application structure</h1>
     <h3>Generating the store</h3>
+    <p>Our application has two tasks:</p>
+    <ol>
+      <li>Store page content</li>
+      <li>Navigate between pages</li>
+    </ol>
     <p>
-      Our application has two tasks:
-      <ol>
-        <li>Store page content</li>
-        <li>Navigate between pages</li>
-      </ol>
       To accomplish this, we will generate a Redux store that contains a{' '}
       <b>pageNumber</b> and an array containing all of our <b>content</b>. The
       entirety of our Redux code (25 lines, without comments) looks like this:
@@ -23,24 +23,22 @@ export const pageEight = (
       action describes <em>what</em> changed, and a reducer describes{' '}
       <em>how</em> that change modifies the application's state.
     </p>
-    <p>
-      In our case, the reducer does two things:
-      <ul>
-        <li>
-          When an action occurs (more on this later), Redux sends that action to
-          our reducer function.
-        </li>
-        <li>
-          If that action (which is just a plain object!) has a type of
-          <em>INCREMENT_PAGE</em>, for example, our reducer will use the logic
-          inside of the corresponding case statement to update our application's
-          state.
-        </li>
-        <li>
-          If the action doesn't correspond to any case statement, the default
-          case will be used.
-        </li>
-      </ul>
-    </p>
+    <p>In our case, the reducer does two things:</p>
+    <ul>
+      <li>
+        When an action occurs (more on this later), Redux sends that action to
+        our reducer function.
+      </li>
+      <li>
+        If that action (which is just a plain object!) has a type of
+        <em>INCREMENT_PAGE</em>, for example, our reducer will use the logic
+        inside of the corresponding case statement to update our application's
+        state.
+      </li>
+      <li>
+        If the action doesn't correspond to any case statement, the default case
+        will be used.
+      </li>
+    </ul>
   </section>
 )

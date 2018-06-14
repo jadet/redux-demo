@@ -24,7 +24,25 @@ h4 {
 }
 
 img {
-  width: 600px;
+  width: 650px;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  max-width: 650px;
+  width: 100%;
+  padding: 48px 0;
+}
+
+code {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 4px;
+}
+
+li {
+  padding: 8px 0;
 }
 
 .App {
@@ -33,15 +51,6 @@ img {
   justify-content: flex-start;
   align-items: center;
   align-content: center;
-}
-
-nav {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  max-width: 600px;
-  width: 100%;
-  padding: 48px 0;
 }
 
 .Back,
@@ -71,5 +80,5 @@ nav {
 
 .Content {
   height: 100%;
-  max-width: 600px;
+  max-width: 650px;
 }

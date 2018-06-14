@@ -2,13 +2,13 @@ import React from 'react'
 import reactBasic from './img/react-basic.gif'
 import reactSiblings from './img/react-siblings.gif'
 import reactComplex from './img/react-complex.gif'
-export const pageTwo = (
+export const pageThree = (
   <section>
-    <h1>React uses unidirectional data flow</h1>
+    <h1>A little bit more in-depth</h1>
     <p>
-      Out of the box, React has <em>unidirectional data flow</em>. This means
-      that components each have their own state, which they send downward to
-      child components as props.
+      React has <em>unidirectional data flow</em>. This means that components
+      each have their own state, which they send downward to child components as
+      props.
     </p>
     <img src={reactBasic} alt="basic flow" />
 
@@ -16,7 +16,7 @@ export const pageTwo = (
       But what about components that don't share a parent-child relationship?
     </h3>
     <p>
-      No problem. React lets you handle this by{' '}
+      React lets you handle this by{' '}
       <a href="https://reactjs.org/docs/lifting-state-up.html">
         lifting state up
       </a>. This means that we take a single component's state, elevate it to
@@ -38,8 +38,12 @@ export const pageTwo = (
     <ul>
       <li>Repeated code for passing props around</li>
       <li>Business logic is spread out across components</li>
-      <li>Changes to the UI require changes to business logic</li>
+      <li>
+        Poor separation of concerns - logic, data, and interface are all tied
+        together
+      </li>
       <li>Can be tough to trace state changes when debugging</li>
+      <li>Changing interface requires a change to state management</li>
     </ul>
   </section>
 )

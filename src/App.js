@@ -31,7 +31,7 @@ function decrementPage() {
   return { type: 'DECREMENT_PAGE' }
 }
 
-// Translate the Redux's store into a component's propss.
+// Translate the Redux's store into a component's props.
 const mapStateToProps = state => {
   return {
     pageNumber: state.pageNumber,

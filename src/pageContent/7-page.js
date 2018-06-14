@@ -1,10 +1,11 @@
 import React from 'react'
-export const pageFive = (
+export const pageSeven = (
   <section>
     <h1>Common concerns about Redux</h1>
     <h3>It's a huge dependency that's going to bloat my application!</h3>
     <p>
-      Redux is about <b>100 lines of code</b>. No, seriously, it's{' '}
+      Redux's core codebase is about <b>100 lines of code</b>. No, seriously,
+      it's{' '}
       <a href="https://gist.github.com/gaearon/ffd88b0e4f00b22c3159">tiny</a>.
       Even with sanity checks and developer warnings, it's less than 2 kB. By
       comparison, here are the sizes of some common libraries:
@@ -13,8 +14,11 @@ export const pageFive = (
       <li>React + ReactDOM: 109 kB</li>
       <li>Angular: 174 kB</li>
       <li>Moment: 227 kB</li>
+      <li>jQuery: 85 kB</li>
       <li>Lodash: 69 kB</li>
       <li>Bootstrap: 48 kB</li>
+      <li>React-router: 35 kB</li>
+      <li>Debug: 7 kB</li>
     </ul>
     <h3>It only works with React</h3>
     <p>

@@ -8,7 +8,7 @@ export const pageSix = (
       probably indicate you should at least consider using Redux:
     </p>
     <ul>
-      <li>The UI can vary significantly based on application state</li>
+      <li>The UI can vary based on application state</li>
       <li>State does not always flow in a linear, unidirectional way</li>
       <li>Common user tasks require multiple state updates</li>
       <li>Many unrelated components update state in the same way</li>

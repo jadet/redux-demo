@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const pageFour = (
+export const pageFive = (
   <section>
     <h1>Redux offers a tradeoff</h1>
     <p>In solving these problems, Redux presents a tradeoff. It asks you to:</p>
@@ -9,11 +9,10 @@ export const pageFour = (
       <li>Describe changes in the application as plain objects</li>
       <li>Describe the logic for handling changes as pure functions</li>
     </ul>
-
     <p>
-      These are pretty strong constraints, and you should have a good reason for
+      These requirements are significant and you should have a good reason for
       adopting them. In fact, Redux's creator Dan Abramov has a very good
-      article discussing this:{' '}
+      article discussing this in detail:{' '}
       <a href="https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367">
         You Might Not Need Redux
       </a>.

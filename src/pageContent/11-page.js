@@ -1,6 +1,5 @@
 import React from 'react'
-import EmbeddedGist from './EmbeddedGist'
-export const pageTen = (
+export const pageEleven = (
   <section>
     <h1>Resources</h1>
     <ul>
@@ -25,6 +24,11 @@ export const pageTen = (
       <li>
         <a href="https://medium.com/dailyjs/when-do-i-know-im-ready-for-redux-f34da253c85f">
           When do I know I'm ready for Redux?
+        </a>
+      </li>
+      <li>
+        <a href="https://hackernoon.com/redesigning-redux-b2baee8b8a38">
+          Redesigning Redux
         </a>
       </li>
       <li>https://github.com/taherbert/redux-demo</li>

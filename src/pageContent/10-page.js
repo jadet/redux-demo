@@ -1,6 +1,6 @@
 import React from 'react'
 import EmbeddedGist from './EmbeddedGist'
-export const pageNine = (
+export const pageTen = (
   <section>
     <h1>Usage with React</h1>
     <EmbeddedGist gist="taherbert/83ce972b2dc1186b98312b81f0b7500a" />

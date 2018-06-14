@@ -1,6 +1,6 @@
 import React from 'react'
 import reduxSimple from './img/redux-simple.gif'
-export const pageThree = (
+export const pageFour = (
   <section>
     <h1>How can Redux help?</h1>
     <p>
@@ -23,9 +23,9 @@ export const pageThree = (
     <p>
       In the above example, a component initiates a change. That change is sent
       off to a central logic layer that performs any modifications to the data,
-      then updates our application state. Other sibling components can "listen"
-      for changes to data points they are interested in, and update when changes
-      occur.
+      then updates our application state. Other sibling components can
+      "subscribe" to changes to data points they are interested in and update
+      when changes occur.
     </p>
   </section>
 )
